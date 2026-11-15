@@ -1,6 +1,6 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
-    "rewrite": [
+    "rewrites": [
         {
             "source": "/famiglia/2025",
             "destination": "https://famiglia-25.vercel.app/"
