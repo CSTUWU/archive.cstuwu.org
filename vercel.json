@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/famiglia/2025",
-            "destination": "https://famiglia-25.vercel.app/"
+            "destination": "https://famiglia-25.vercel.app"
         }
     ]
 }
