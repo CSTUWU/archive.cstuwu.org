@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/famiglia/2025",
-      "destination": "https://famiglia-25.vercel.app/famiglia/2025"
+      "destination": "https://famiglia-25.vercel.app"
     },
     {
       "source": "/famiglia/2025/:path*",
-      "destination": "https://famiglia-25.vercel.app/famiglia/2025/:path*"
+      "destination": "https://famiglia-25.vercel.app/:path*"
     }
   ]
 }
