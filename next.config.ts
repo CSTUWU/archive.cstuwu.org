@@ -2,12 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  images: {
-    unoptimized: true,
+  experimental: {
+    agentFeedback: true,
   },
-  output: 'export',
-  cacheComponents: false,
-  partialPrefetching: false,
+  cacheComponents: true,
+  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
